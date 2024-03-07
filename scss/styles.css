@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/bg.gif);
+  padding: 50px 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+.unlocked-photos {
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  color: #fff;
+}
+
+.box {
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background: url(../img/bg2.jpg) no-repeat center;
+  background-size: cover;
+}
+.box img {
+  width: 100%;
+  border-radius: 15px;
+}
+.box p {
+  color: #fff;
+}
+.box .main-button {
+  background: crimson;
+  border: 3px solid crimson;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  transition: 300ms;
+  cursor: pointer;
+}
+.box .main-button:hover {
+  border: 3px solid black;
+  background: #fff;
+  color: black;
+}
+@media screen and (max-width: 992px) {
+  .box {
+    width: 90%;
+  }
+}/*# sourceMappingURL=styles.css.map */
